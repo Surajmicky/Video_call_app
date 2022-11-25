@@ -1,10 +1,14 @@
-import {createSlice} from '@reduxjs/toolkit'
+/** @format */
 
-interface authInitialState {};
- const initialState:authInitialState={}
-export const authSlice= createSlice({
-    name:'auth',
-    initialState,
-    reducers:{}
-})
-export const {}= authSlice.actions;
+import { createSlice } from "@reduxjs/toolkit";
+
+interface authInitialState {}
+
+const initialState: authInitialState = {};
+
+export const authSlice = createSlice({
+	name: "auth",
+	initialState,
+	reducers: {},
+});
+export const {} = authSlice.actions;
